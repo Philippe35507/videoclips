@@ -1,3 +1,7 @@
+
+
+/*
+
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
@@ -12,7 +16,7 @@ import Img from "gatsby-image"
  * - `gatsby-image`: https://gatsby.dev/gatsby-image
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
-
+/*
 const Image = () => {
   const data = useStaticQuery(graphql`
     query {
@@ -30,3 +34,5 @@ const Image = () => {
 }
 
 export default Image
+
+*/

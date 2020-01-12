@@ -1,21 +1,34 @@
 import React from "react"
 import { Link } from "gatsby"
+import Head from "../components/head"
+
 
 import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+const IndexPage = () => {
+  return (
+    <Layout>
+          <Head title="home" />
+          <h1>Hello !!</h1>
+          <h2>I am Philippe</h2>
+          <p>Need help ? <Link to="/contact">CONTACT ME</Link></p>
+    </Layout>
+    )
+  }
 
 export default IndexPage
+
+
+  /* AVANT CREATION DE LAYOUT
+  return (
+    <div>
+      <Header />
+        <h1>Hello !!</h1>
+        <h2>I am Philippe</h2>
+        <p>Need help ? <Link to="/contact">CONTACT ME</Link></p>
+      <Footer />
+    </div>
+  )
+}
+*/
+
