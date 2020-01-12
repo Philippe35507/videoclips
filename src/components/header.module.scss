@@ -1,9 +1,13 @@
+html { 
+    background-image: url("../images/fire.jpg");
+}
+
 .header {
-    padding: 1rem 0 3rem;
-   }
+  padding: 1rem 0 3rem;
+}
 
 .title {
-    color: #000000;
+    color: #a72020;
     font-size: 3rem;
     text-decoration: none;
 }
@@ -15,16 +19,17 @@
 }
 
 .nav-item {
-    color: #999999;
+    color: #070707;
     font-size: 0.9rem;
     margin-right: 1.3rem;
     text-decoration: none;
 }
 
 .nav-item:hover {
-    color: #666666;
+    color: #0426e6;
 }
 
 .active-nav-item {
-    color: #333333;
+    color: #f7f3f3;
 }
+
