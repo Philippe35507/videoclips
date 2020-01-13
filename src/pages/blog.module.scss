@@ -7,7 +7,7 @@
     margin: 1rem 0;
 
     a {
-        background: rgba(194, 26, 14, 0.2);
+        background: rgba(138, 34, 27, 0.466);
         color: #000000;
         display: block;
         padding: 1rem;
@@ -23,10 +23,38 @@
     }
 
     p {
-        color: #777777;
+        color: #111010;
         font-size: .8rem;
         font-style: italic;
     }
 }
 
 
+div {
+    color: #131212;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-style: italic;
+
+    a {
+        color: rgba(12, 11, 17, 0.979);
+        font-size: 1.5rem;
+        
+    }
+
+    a:hover {
+        background: rgba(192, 175, 174, 0.472);
+        color: rgba(241, 125, 16, 0.787);
+    }
+
+}
+
+h1 {
+    color: rgba(2, 0, 5, 0.678);
+}
+
+p {
+    font-size: 1.2rem;
+}

@@ -3,8 +3,7 @@ title: "A Victory Of Love - Alphaville"
 date: "12 01 2020"
 ---
 
-
- <iframe
+<iframe
       src="https://www.youtube.com/embed/bpb4I6sSj80"
       title="titrevideo"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -15,6 +14,7 @@ date: "12 01 2020"
       width="640" 
       height="360"
     />
+
 
 
 

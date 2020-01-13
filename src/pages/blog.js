@@ -15,6 +15,7 @@ const BlogPage = () => {
                         frontmatter {
                             title 
                             date
+                            
                         }
                         fields {
                             slug

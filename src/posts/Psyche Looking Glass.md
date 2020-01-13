@@ -1,5 +1,5 @@
 ---
-title: "Psyché - Looking Glass"
+title: "Psyche - Looking Glass"
 date: "12 01 2020"
 ---
 

@@ -7,8 +7,8 @@ html {
 }
 
 .title {
-    color: #a72020;
-    font-size: 3rem;
+    color: rgba(41, 8, 44, 0.541);
+    font-size: 3.5rem;
     text-decoration: none;
 }
 
@@ -16,6 +16,7 @@ html {
     display: flex;
     list-style-type: none;
     margin: 0;
+    padding: 1rem;
 }
 
 .nav-item {
@@ -26,10 +27,10 @@ html {
 }
 
 .nav-item:hover {
-    color: #0426e6;
+    color: #cbd819;
 }
 
 .active-nav-item {
-    color: #f7f3f3;
+    color: #f4faf7;
 }
 
