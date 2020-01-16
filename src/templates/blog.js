@@ -10,7 +10,7 @@ export const query = graphql`
         markdownRemark(fields: { slug: { eq: $slug } }) {
             frontmatter {
                 title
-                date
+                country
                 
             }
             html
@@ -22,10 +22,8 @@ const Blog = (props) => {
         <Layout>
             <Head title={props.data.markdownRemark.frontmatter.title}/>
             <h1>{props.data.markdownRemark.frontmatter.title}</h1>
-            <p>{props.data.markdownRemark.frontmatter.date}</p>
-            
+            <p>{props.data.markdownRemark.frontmatter.country}</p>
             <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}></div>
-            
             <Bands />
         </Layout>
     )

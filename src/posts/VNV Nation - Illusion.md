@@ -1,7 +1,12 @@
 ---
-title: "VNV Nation - Illusion"
-date: "12 01 2020"
+title: "VNV Nation"
+country: "(Germany)"
 ---
+
+  <br></br>
+
+
+### Illusion
 
 <iframe
       src="https://www.youtube.com/embed/MVHT-EJyqGI"
@@ -15,10 +20,11 @@ date: "12 01 2020"
       height="360"
     ></iframe>
 
+  <br></br>
   <hr></hr>
   <br></br>
-  
-  
+
+ ### When is the Future ? 
 
 <iframe
       src="https://www.youtube.com/embed/SF5mf4LV7Jw"
@@ -32,7 +38,11 @@ date: "12 01 2020"
       height="360"
     ></iframe>
 
-<br></br>
+  <br></br>
+  <hr></hr>
+  <br></br>
+
+  ### Standing
 
   <iframe
       src="https://www.youtube.com/embed/Xk4gZEAmOLk"
@@ -47,9 +57,13 @@ date: "12 01 2020"
     ></iframe>
 
   <br></br>
+  <hr></hr>
+  <br></br>
+
+### Epicentre
 
   <iframe
-      src="https://www.youtube.com/embed/woIiLtWzXAQ"
+      src="https://www.youtube.com/embed/7cC7cgYjDBY"
       title="titrevideo"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       frameBorder="0"
@@ -60,6 +74,8 @@ date: "12 01 2020"
       height="360"
     ></iframe>
 
+  <br></br>
+  <hr></hr>
   <br></br>
 
 

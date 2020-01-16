@@ -1,7 +1,11 @@
 ---
-title: "Culture Kultür - Forever"
-date: "12 01 2020"
+title: "Culture Kultür"
+country: "(Germany)"
 ---
+
+<br></br>
+
+### Forever
 
 <iframe
       src="https://www.youtube.com/embed/ZvsWnJx3k84"
@@ -13,7 +17,9 @@ date: "12 01 2020"
       allowFullScreen
       width="640" 
       height="360"
-    />
+    ></iframe>
 
-
+  <br></br>
+  <hr></hr>
+  <br></br>
 

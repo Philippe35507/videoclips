@@ -1,17 +1,18 @@
 import React from "react"
-import { Link } from "gatsby"
+
 import Head from "../components/head"
 
-
 import Layout from "../components/layout"
+
+import BlogPage from "../components/blog"
 
 const IndexPage = () => {
   return (
     <Layout>
           <Head title="home" />
-          <h1>Hello !!</h1>
-          <h2>I am Philippe</h2>
-          <p>Need help ? <Link to="/contact">Please contact me here</Link></p>
+          
+          <h5>Metal - Syntpop - EBM - Gothic (and more!)</h5>
+          <BlogPage></BlogPage> 
     </Layout>
     )
   }
@@ -19,16 +20,4 @@ const IndexPage = () => {
 export default IndexPage
 
 
-  /* AVANT CREATION DE LAYOUT
-  return (
-    <div>
-      <Header />
-        <h1>Hello !!</h1>
-        <h2>I am Philippe</h2>
-        <p>Need help ? <Link to="/contact">CONTACT ME</Link></p>
-      <Footer />
-    </div>
-  )
-}
-*/
-
+ 

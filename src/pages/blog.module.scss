@@ -7,15 +7,15 @@
     margin: 1rem 0;
 
     a {
-        background: rgba(138, 34, 27, 0.466);
-        color: #000000;
+        background: rgba(39, 39, 36, 0.507);
+        color: #f5dbdbdc;
         display: block;
         padding: 1rem;
         text-decoration: none;
     }
 
     a:hover {
-        background: rgba(105, 28, 23, 0.472);
+        color: rgba(214, 22, 8, 0.781);
     }
 
     h2 {
@@ -23,7 +23,7 @@
     }
 
     p {
-        color: #111010;
+        color: #f5dbdbdc;
         font-size: .8rem;
         font-style: italic;
     }
@@ -31,7 +31,7 @@
 
 
 div {
-    color: #131212;
+    color:  #f5dbdbdc;
     display: block;
     text-align: center;
     text-decoration: none;
@@ -39,22 +39,21 @@ div {
     font-style: italic;
 
     a {
-        color: rgba(12, 11, 17, 0.979);
+        color:  #f5dbdbdc;
         font-size: 1.5rem;
         
     }
 
     a:hover {
-        background: rgba(192, 175, 174, 0.472);
-        color: rgba(241, 125, 16, 0.787);
+        background: rgba(70, 67, 67, 0);
+        color: rgba(241, 16, 16, 0.856);
     }
 
+   
 }
+
 
 h1 {
-    color: rgba(2, 0, 5, 0.678);
+    color:  #f5dbdbdc;
 }
 
-p {
-    font-size: 1.2rem;
-}

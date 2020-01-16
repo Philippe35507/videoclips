@@ -1,7 +1,11 @@
 ---
-title: "A Victory Of Love - Alphaville"
-date: "12 01 2020"
+title: "Alphaville"
+country: "(Germany)"
 ---
+
+<br></br>
+
+### A Victory Of Love 
 
 <iframe
       src="https://www.youtube.com/embed/bpb4I6sSj80"
@@ -13,9 +17,11 @@ date: "12 01 2020"
       allowFullScreen
       width="640" 
       height="360"
-    />
+    ></iframe>
 
 
-
+  <br></br>
+  <hr></hr>
+  <br></br>
 
 

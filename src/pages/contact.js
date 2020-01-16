@@ -7,9 +7,9 @@ const ContactPage = () => {
     return (
         <Layout>
             <Head title="Contact" />
-            <h1>---Contact Page---</h1>
-            <p>Facebook</p>
-            <p>My Tweeter <a href="https://twitter.com/">here</a></p>
+            
+           
+            <p>My Tweeter <a href="https://twitter.com/ctahiche" rel = "noopener noreferrer" target="_blank">here</a></p>
         </Layout>
     )
 }

@@ -1,7 +1,11 @@
 ---
-title: "Psyche - Looking Glass"
-date: "12 01 2020"
+title: "Psyche"
+country: "(Canada)"
 ---
+
+<br></br>
+
+### Looking Glass
 
 <iframe
       src="https://www.youtube.com/embed/N5TheLEo8rw"
@@ -13,6 +17,9 @@ date: "12 01 2020"
       allowFullScreen
       width="640" 
       height="360"
-    />
+    ></iframe>
 
 
+  <br></br>
+  <hr></hr>
+  <br></br>

@@ -1,10 +1,14 @@
 ---
-title: "Kirlian Camera - Blue Room"
-date: "12 01 2020"
+title: "Kirlian Camera"
+country: "(Italy)"
 ---
 
+<br></br>
+
+### Blue Room
+
 <iframe
-      src="https://www.youtube.com/embed/q-sxfW_6h8M"
+      src="https://www.youtube.com/embed/ZN92PUxqeJM"
       title="titrevideo"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       frameBorder="0"
@@ -16,11 +20,12 @@ date: "12 01 2020"
     ></iframe>
 
 
-<hr></hr>
+  <br></br>
+  <hr></hr>
   <br></br>
   
 
-"Kirlian Camera - Kpax"
+### K-pax
   
 
 <iframe
@@ -35,7 +40,11 @@ date: "12 01 2020"
       height="360"
     ></iframe>
 
-<br></br>
+  <br></br>
+  <hr></hr>
+  <br></br>
+
+### Eclipse
 
   <iframe
       src="https://www.youtube.com/embed/FtXDfwO9aFs"
@@ -50,6 +59,10 @@ date: "12 01 2020"
     ></iframe>
 
   <br></br>
+  <hr></hr>
+  <br></br>
+
+  ### Black August
 
   <iframe
       src="https://www.youtube.com/embed/gYp92yFsnB4"
@@ -63,4 +76,6 @@ date: "12 01 2020"
       height="360"
     ></iframe>
 
+  <br></br>
+  <hr></hr>
   <br></br>

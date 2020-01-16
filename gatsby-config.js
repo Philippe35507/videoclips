@@ -1,6 +1,4 @@
 
-
-
 module.exports = {
   siteMetadata: {
     title: `JukeBox`,
