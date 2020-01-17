@@ -1,18 +1,18 @@
 .container {
     background-color: rgba(10, 3, 3, 0.589);
     margin: 0 auto;
-    max-width: 750px;
-    padding: 1rem;
+    max-width: 850px;
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
     position: center;
     min-height: 100vh;
+    align-content: center;
 }
 
 .content {
     flex-grow: 1;
-    
-    padding: 2rem;
-    
+    padding: 1rem;
+    align-content: center;
 }
 

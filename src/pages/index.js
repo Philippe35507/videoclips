@@ -11,7 +11,7 @@ const IndexPage = () => {
     <Layout>
           <Head title="home" />
           
-          <h5>Metal - Syntpop - EBM - Gothic (and more!)</h5>
+          <h5>Gothic  - Metal - Synth-pop (and more!)</h5>
           <BlogPage></BlogPage> 
     </Layout>
     )

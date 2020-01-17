@@ -5,13 +5,20 @@ import { Link } from "gatsby"
 const Bands = (props) => {
     return (
         <div>
-            <p><Link to="../blog/A%20Victory%20Of%20Love%20-%20Alphaville">Alphaville</Link></p>
-            <p><Link to="../blog/blutengelYouWlkAway">Blutengel</Link></p>
-            <p><Link to="../blog/Culture%20Kultür%20-%20Forever">Culture Kültur</Link></p>
-            <p><Link to="../blog/Kirlian%20Camera%20-%20Blue%20Room">Kirlian Kamera</Link></p>
-            <p><Link to="../blog/Psyche%20Looking%20Glass">Psyche</Link></p>
-            <p><Link to="../blog/shadowdance-lasttrain">The Shadow Dance</Link></p>
-            <p><Link to="../blog/VNV%20Nation%20-%20Illusion">VNV Nation</Link></p>
+            <p><Link to="../blog/Alphaville">Alphaville</Link></p>
+            <p><Link to="../blog/Blutengel">Blutengel</Link></p>
+            <p><Link to="../blog/CultureKultur">Culture Kultür</Link></p>
+            <p><Link to="../blog/KirlianCamera">Kirlian Kamera</Link></p>
+            <p><Link to="../blog/Psyche">Psyche</Link></p>
+            <p><Link to="../blog/ShadowDance">The Shadow Dance</Link></p>
+            <p><Link to="../blog/VNVNation">VNV Nation</Link></p>
+            <p><Link to="../blog/IronMaiden">Iron Maiden</Link></p>
+            <p><Link to="../blog/Diorama">Diorama</Link></p>
+            <p><Link to="../blog/Covenant">Covenant</Link></p>
+            <p><Link to="../blog/L'AmeImmortelle">L'Ame Immortelle</Link></p>
+            <p><Link to="../blog/DeadCanDance">Dead Can Dance</Link></p>
+            <p><Link to="../blog/SaraNoxx">Sara Noxx</Link></p>
+            <p><Link to="../blog/SistersOfMercy">Sisters of Mercy</Link></p>
             <br></br>
         </div>
     )

@@ -1,17 +1,26 @@
 
 body { 
     background-image: url("../images/fire.jpg") ;
+    align-content: center;
+    margin: 0 auto;
+    padding: 0 auto;
   }
 
 
 .header {
   padding: 1rem 0 3rem;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0 auto;
 }
 
 .title {
     color: rgba(41, 8, 44, 0.541);
     font-size: 3.5rem;
     text-decoration: none;
+    align-content: center;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 .nav-list {

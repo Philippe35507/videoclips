@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 
 
-import blogStyles from "../pages/blog.module.scss"
+import blogStyles from "./blog.module.scss"
 
 
 import Head from "./head"

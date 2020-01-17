@@ -23,3 +23,23 @@ country: "(Canada)"
   <br></br>
   <hr></hr>
   <br></br>
+  
+
+  ### Hypnotized
+
+<iframe
+      src="https://www.youtube.com/embed/-Hn5_8-h68Q"
+      title="titrevideo"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      frameBorder="0"
+      webkitallowfullscreen="true"
+      mozallowfullscreen="true"
+      allowFullScreen
+      width="640" 
+      height="360"
+      ></iframe>
+
+
+  <br></br>
+  <hr></hr>
+  <br></br>

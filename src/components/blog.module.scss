@@ -1,17 +1,28 @@
 .posts {
     list-style-type: none;
-    margin: 0;
+    display: block;
+    align-content: center;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 .post {
-    margin: 1rem 0;
+        margin: 1.5rem;
+        align-content: center;
+        margin-right: 4rem;
+        text-align: center;
+        position: center;
+        align-content: center;
+        display: block;
+        
 
     a {
         background: rgba(39, 39, 36, 0.507);
         color: #f5dbdbdc;
         display: block;
-        padding: 1rem;
-        text-decoration: none;
+        padding: 0.1rem 0.2rem;
+        text-decoration: none;                
+        align-content: center;
     }
 
     a:hover {
@@ -37,23 +48,35 @@ div {
     text-decoration: none;
     font-size: 1.4rem;
     font-style: italic;
+    align-content: center;
 
     a {
         color:  #f5dbdbdc;
-        font-size: 1.5rem;
-        
+        font-size: 1.1rem;
     }
 
     a:hover {
         background: rgba(70, 67, 67, 0);
         color: rgba(241, 16, 16, 0.856);
-    }
-
-   
+    }  
 }
 
 
 h1 {
-    color:  #f5dbdbdc;
+    color:  red;
 }
 
+h5 {
+    color: red;
+    
+}
+
+.iframe {
+    max-width: 90%;
+}
+
+@media screen and (max-width: 600px) {
+    .ifraime {
+      max-width: 70%;
+    }
+  }
