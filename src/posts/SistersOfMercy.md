@@ -1,5 +1,5 @@
 ---
-title: "Sisters of Mercy"
+title: "The Sisters of Mercy"
 country: "(England)"
 ---
 

@@ -1,5 +1,7 @@
+
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
+
 
 
 import blogStyles from "./blog.module.scss"
@@ -18,6 +20,8 @@ const BlogPage = () => {
                             title 
                             country
                             
+                          
+                            
                         }
                         fields {
                             slug
@@ -31,7 +35,6 @@ const BlogPage = () => {
     return (
         <div>
             <Head title="Blog" />
-            
             <ol className={blogStyles.posts}>
                 {data.allMarkdownRemark.edges.map((edge) => {
                     return (
@@ -50,3 +53,4 @@ const BlogPage = () => {
 }
 
 export default BlogPage
+

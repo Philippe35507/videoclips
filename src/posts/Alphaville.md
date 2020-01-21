@@ -1,13 +1,15 @@
 ---
 title: "Alphaville"
-country: "(Germany)"
+country: "Germany"
 ---
+
+
 
 <br></br>
 
 ### A Victory Of Love 
 
-<iframe
+<iframe 
       src="https://www.youtube.com/embed/bpb4I6sSj80"
       title="titrevideo"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -46,3 +48,6 @@ country: "(Germany)"
   <br></br>
   <hr></hr>
   <br></br>
+
+  
+  

@@ -14,7 +14,7 @@
         position: center;
         align-content: center;
         display: block;
-        
+       
 
     a {
         background: rgba(39, 39, 36, 0.507);
@@ -26,7 +26,7 @@
     }
 
     a:hover {
-        color: rgba(214, 22, 8, 0.781);
+        color: rgba(241, 16, 16, 0.856);
     }
 
     h2 {
@@ -38,9 +38,11 @@
         font-size: .8rem;
         font-style: italic;
     }
+
+    
+
 }
-
-
+   
 div {
     color:  #f5dbdbdc;
     display: block;
@@ -60,8 +62,7 @@ div {
         color: rgba(241, 16, 16, 0.856);
     }  
 }
-
-
+    
 h1 {
     color:  red;
 }
@@ -75,8 +76,18 @@ h5 {
     max-width: 90%;
 }
 
+
+.list-bands {
+    text-align: center;
+    padding: 0 auto;
+    text-decoration: none;
+    } 
+
+
 @media screen and (max-width: 600px) {
-    .ifraime {
-      max-width: 70%;
+    .iframe {
+      max-width: 70%; }
     }
-  }
+
+
+    
