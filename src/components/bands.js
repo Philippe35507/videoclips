@@ -5,7 +5,7 @@ import blogStyles from "./blog.module.scss"
 
 const Bands = (props) => {
     return (
-        <div>
+        <div className={blogStyles.wrapper}>
             <p><Link to="../blog/10%20SaraNoxx" className={blogStyles.listBands} >Sara Noxx</Link></p>
             <p><Link to="../blog/20%20Alphaville" className={blogStyles.listBands} >Alphaville</Link></p>
             <p><Link to="../blog/30%20KirlianCamera" className={blogStyles.listBands} >Kirlian Kamera</Link></p>

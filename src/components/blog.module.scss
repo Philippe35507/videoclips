@@ -88,7 +88,7 @@ p {
 
 
 .iframe {
-    max-width: 90%;
+   max-width: 90%;
 }
 
 
@@ -96,13 +96,32 @@ p {
     text-align: center;
     padding: 0 auto;
     text-decoration: none;
-    } 
+} 
 
 
-@media screen and (max-width: 600px) {
-    .iframe {
-      max-width: 70%; }
-    }
 
 
-    
+.wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        justify-content: center;	
+        
+
+        
+}
+
+
+
+.flexi {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          
+}
+
+.item {
+    align-self: center;
+}
+      

@@ -5,6 +5,8 @@ import Layout from "../components/layout"
 import Head from "../components/head"
 import Bands from "../components/bands"
 
+import blogStyles from "../components/blog.module.scss"
+
 /*
 export const Video = ({ country, videoTitle, ...props }) => {
     return (
@@ -42,12 +44,13 @@ const Blog = (props) => {
     return(
         <Layout>
             <Head title={props.data.markdownRemark.frontmatter.title}/>
-            <h2>{props.data.markdownRemark.frontmatter.title}</h2>
-            <p>{props.data.markdownRemark.frontmatter.country}</p>
+                <div className={blogStyles.flexi} >
+                    <h2 className={blogStyles.item} >{props.data.markdownRemark.frontmatter.title}</h2>
+                    <p className={blogStyles.item} >{props.data.markdownRemark.frontmatter.country}</p>
                         
-            <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}></div>
-            
-            <Bands />
+                    <div className={blogStyles.item} dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}></div>
+                </div>
+                <Bands />
         </Layout>
     )
 }
