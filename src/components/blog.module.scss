@@ -6,6 +6,16 @@
     padding: 0 auto;
 }
 
+.post iframe {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  max-width: 100%; 
+  max-height: 100%; 
+  border: 0; 
+}
+
+
 .post {
         margin: 1.5rem;
         align-content: center;
@@ -13,7 +23,9 @@
         text-align: center;
         position: center;
         align-content: center;
-        display: block;
+       
+        
+        
        
         a {                      // bandeau noir
             background: rgba(39, 39, 36, 0.507);
@@ -78,6 +90,7 @@ p {
     color: #e3dbf5dc;   // color country + about + contact
     font-size: .8rem;
     font-style: italic;
+    
 
     a:hover {                      // liste des liens Bands
         color: rgba(241, 16, 16, 0.856);
@@ -87,10 +100,6 @@ p {
 
 
 
-.iframe {
-   max-width: 90%;
-}
-
 
 .list-bands {
     text-align: center;
@@ -98,30 +107,47 @@ p {
     text-decoration: none;
 } 
 
-
-
-
-.wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap: 20px;
-        grid-row-gap: 20px;
-        justify-content: center;	
-        
-
-        
+iframe .post {
+    position: absolute;
+  
+  
 }
-
 
 
 .flexi {
           display: flex;
           flex-direction: column;
           align-items: center;
-          
+         
 }
 
 .item {
     align-self: center;
+   
 }
       
+.grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        justify-content: space-around;	
+        margin: 0.1rem 4.5rem;
+   
+}
+
+
+.grid-item {
+        padding: 0.1rem;
+        align-items: center;
+        background-color: black;
+    }
+
+ @media only screen and (max-width: 719px) {
+    .grid-container {
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        margin: 0.1rem 0.1rem;
+        background-color: black;
+     }
+ }
