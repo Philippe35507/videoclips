@@ -44,11 +44,11 @@ const Blog = (props) => {
     return(
         <Layout>
             <Head title={props.data.markdownRemark.frontmatter.title}/>
-                <div className={blogStyles.flexi} >
-                    <h2 className={blogStyles.item} >{props.data.markdownRemark.frontmatter.title}</h2>
-                    <p className={blogStyles.item} >{props.data.markdownRemark.frontmatter.country}</p>
+                <div className={blogStyles.flexContainer} >
+                    <h2 className={blogStyles.flexItem} >{props.data.markdownRemark.frontmatter.title}</h2>
+                    <p className={blogStyles.flexItem} >{props.data.markdownRemark.frontmatter.country}</p>
                         
-                    <div className={blogStyles.item} dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}></div>
+                    <div className={blogStyles.flexItem} dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}></div>
                 </div>
                 <Bands />
         </Layout>

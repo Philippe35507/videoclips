@@ -1,9 +1,12 @@
 .posts {
+    display: flex;
+    flex-direction: column;
     list-style-type: none;
     display: block;
     align-content: center;
     margin: 0 auto;
     padding: 0 auto;
+    
 }
 
 .post iframe {
@@ -19,12 +22,10 @@
 .post {
         margin: 1.5rem;
         align-content: center;
-        margin-right: 4rem;
+        
         text-align: center;
         position: center;
-        align-content: center;
-       
-        
+        align-content: center;   
         
        
         a {                      // bandeau noir
@@ -34,6 +35,7 @@
             padding: 0.1rem 0.2rem;
             text-decoration: none;                
             align-content: center;
+           
         }     
 }
    
@@ -114,40 +116,72 @@ iframe .post {
 }
 
 
-.flexi {
+.flex-container {
           display: flex;
           flex-direction: column;
           align-items: center;
          
 }
 
-.item {
+.flex-item {
     align-self: center;
    
 }
       
 .grid-container {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         grid-column-gap: 20px;
         grid-row-gap: 20px;
         justify-content: space-around;	
         margin: 0.1rem 4.5rem;
+        
+        a {
+            DISPLAY: BLOCK; 
+        }
+
+        p {
+            
+            border-radius: 1px;
+            text-shadow: 0px 1px 0px rgb(71, 67, 67);
+            box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5),
+                 0 -1px 0 rgba( 255, 255, 255, 0.4);
+
+        }
+
+        p:hover {           
+                      
+            background: rgba(70, 67, 67, 0); 
+            
+        }
    
 }
 
-
 .grid-item {
+   
         padding: 0.1rem;
-        align-items: center;
-        background-color: black;
-    }
+        align-items: center;       
+        background: rgba(39, 39, 36, 0.507);     
+         
+        background: linear-gradient(242deg, #770303e0, #0a0a0ade);
+        background-size: 400% 50%;
+
+}
+
+
+
 
  @media only screen and (max-width: 719px) {
-    .grid-container {
-        grid-column-gap: 10px;
-        grid-row-gap: 10px;
-        margin: 0.1rem 0.1rem;
-        background-color: black;
-     }
+            .grid-container {
+                grid-column-gap: 10px;
+                grid-row-gap: 10px;
+                margin: 0.1rem 0.1rem;
+                
+            }
+
+            .list-bands, .posts {
+                margin: 0;
+                padding: 0;
+            }
+     
  }
