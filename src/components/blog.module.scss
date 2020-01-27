@@ -9,6 +9,7 @@
     
 }
 
+
 .post iframe {
   position: absolute; 
   top: 0; 
@@ -105,14 +106,15 @@ p {
 
 .list-bands {
     text-align: center;
-    padding: 0 auto;
+    padding: 0;
     text-decoration: none;
 } 
 
+
 iframe .post {
     position: absolute;
-  
-  
+    width: 720px; 
+    height:400px;
 }
 
 
@@ -133,11 +135,12 @@ iframe .post {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         grid-column-gap: 20px;
         grid-row-gap: 20px;
-        justify-content: space-around;	
+        
+        
         margin: 0.1rem 4.5rem;
         
         a {
-            DISPLAY: BLOCK; 
+            display: block; 
         }
 
         p {
@@ -160,7 +163,8 @@ iframe .post {
 .grid-item {
    
         padding: 0.1rem;
-        align-items: center;       
+        
+            
         background: rgba(39, 39, 36, 0.507);     
          
         background: linear-gradient(242deg, #770303e0, #0a0a0ade);
@@ -180,8 +184,18 @@ iframe .post {
             }
 
             .list-bands, .posts {
-                margin: 0;
+                margin: 0 auto;
                 padding: 0;
             }
-     
+            
+            .post {
+                margin-left: 0;
+                margin-right: 0;    
+
+                a {
+                    margin-left: 0;
+                    margin-right: 0; 
+                }
+            }
+            
  }
