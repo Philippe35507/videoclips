@@ -2,10 +2,12 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
+import blogStyles from "../components/blog.module.scss"
+
 import Head from "../components/head"
 import Bands from "../components/bands"
 
-import blogStyles from "../components/blog.module.scss"
+
 
 /*
 export const Video = ({ country, videoTitle, ...props }) => {

@@ -10,16 +10,6 @@
 }
 
 
-.post iframe {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  max-width: 100%; 
-  max-height: 100%; 
-  border: 0; 
-}
-
-
 .post {
         margin: 1.5rem;
         align-content: center;
@@ -111,11 +101,6 @@ p {
 } 
 
 
-iframe .post {
-    position: absolute;
-    width: 720px; 
-    height:400px;
-}
 
 
 .flex-container {
@@ -175,7 +160,9 @@ iframe .post {
 
 
 
- @media only screen and (max-width: 719px) {
+
+@media only screen and (max-width: 719px) {
+
             .grid-container {
                 grid-column-gap: 10px;
                 grid-row-gap: 10px;
@@ -197,5 +184,75 @@ iframe .post {
                     margin-right: 0; 
                 }
             }
+
+            iframe {
+                width: 620px; 
+                height: 350px; 
+              }
+                                  
+}
+
+
+
+
+
+@media only screen and (max-width: 640px) {
+
+    iframe {
+        width: 580px; 
+        height: 328px; 
+      }
+                
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    iframe {
+        width: 480px; 
+        height: 270px; 
+      }
+                
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    iframe {
+        width: 380px; 
+        height: 214px; 
+      }
+                
+}
+
+
+@media only screen and (max-width: 400px) {
+
+    iframe {
+        width: 280px; 
+        height: 158px; 
+      }
+                
+}
+
+@media only screen and (max-width: 300px) {
+
+    iframe {
+        width: 180px; 
+        height: 102px; 
+      }
             
- }
+      h1, h2, h3, p {
+          font-size: 1rem;
+      }
+
+     
+}
+
+@media only screen and (min-width: 720px) {
+    iframe {
+    width: 700px; 
+    height: 396px; 
+    }
+}

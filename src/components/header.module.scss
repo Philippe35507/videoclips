@@ -1,30 +1,40 @@
 
+
+
 body { 
     background-image: url("../images/fire.jpg") ;
-    align-content: center;
-    margin: 0 auto;
-    padding: 0 auto;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
   }
 
 
 .header {
-  padding: 1rem 0 3rem;
-  align-content: center;
-  margin: 0 auto;
-  padding: 0 auto;
+  padding: 0;
+  margin: 0; 
+
+  h1 {
+      padding: 0;
+      margin: 3rem auto 2.5rem auto;
+  }
 }
 
 .nav-list {
     display: flex;
+    justify-content: center;
+    
     list-style-type: none;
     margin: 0;
-    padding: 1rem;
+    padding: 0;
 }
 
 .nav-item {
+    
     color: #e9e8e3;
     font-size: 0.9rem;
-    margin-right: 1.3rem;
+    margin-left: 1.7rem;
+    margin-right: 0.3rem;
+    
     text-decoration: none;
 }
 

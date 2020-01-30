@@ -15,7 +15,7 @@ const Bands = (props) => {
             <p className={blogStyles.gridItem} ><Link to="../blog/70CultureKultur" className={blogStyles.listBands} >Culture Kultür</Link></p>
             <p className={blogStyles.gridItem} ><Link to="../blog/80Diorama" className={blogStyles.listBands} >Diorama</Link></p>
             <p className={blogStyles.gridItem} ><Link to="../blog/90Psyche" className={blogStyles.listBands} >Psyche</Link></p>
-            <p className={blogStyles.gridItem} ><Link to="../blog/100ShadowDance" className={blogStyles.listBands} >The Shadow Dance</Link></p>
+            <p className={blogStyles.gridItem} ><Link to="../blog/100GhostDance" className={blogStyles.listBands} >Ghost Dance</Link></p>
             <p className={blogStyles.gridItem} ><Link to="../blog/110Covenant" className={blogStyles.listBands} >Covenant</Link></p>
             <p className={blogStyles.gridItem} ><Link to="../blog/120L'AmeImmortelle" className={blogStyles.listBands} >L'Ame Immortelle</Link></p>
             <p className={blogStyles.gridItem} ><Link to="../blog/130SistersOfMercy" className={blogStyles.listBands} >The Sisters of Mercy</Link></p>
